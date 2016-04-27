@@ -3,7 +3,7 @@ def data_type(x):
 	Takes an argument, x:
 		-For a integer, return x**2
 		-For a float, return x/2
-		-For a string, return x/2
+		-For a string, return "Hello "+ x
 		-For a boolean, return "boolean"
 		-For a long, return  squareroot(x)
 	'''
@@ -12,12 +12,11 @@ def data_type(x):
 	elif type(x) ==float:
 		return x / 2
 	elif type(x) == str:
-		return "hello " + x
-	elif type(x) == long:
+		return "Hello {}".format(x)
+	elif type(x) ==long:
 		return "long"
 	elif type(x) == bool:
 		return "boolean"
-
 	else:
 	 return "No category found"
 
