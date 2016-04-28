@@ -7,10 +7,6 @@ def funky(a, b):
 		return z
 	elif type(a) ==str or type(b) ==str:
 		return str(a) + str(b)
-<<<<<<< HEAD
-=======
-
->>>>>>> 0da3ec5f21071e7fed8dd023097ce5dbaae61a12
 	else:
 		return "NO CAN DO"
 print('h',7)
